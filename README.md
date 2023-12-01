@@ -5,7 +5,8 @@ After working on a client project where I needed to pass Stripe fees on to custo
 Stripe does have a [support article about it](https://support.stripe.com/questions/passing-the-stripe-fee-on-to-customers) but other than a "we don't recommend this", "it might be illegal in your country" and "here is a blury maths expression, good luck"; I wasn't able to learn much from it.
 ![Expression from Stripe](public/images/stripe-added-fees-expression.png)
 
-In this repo, I am going to demo how this can be achived using PHP, Laravel and Livewire, but I hope that the logic could easily be reused in other project stacks or languages.
+In this repo, I am going to demo how this can be achived using Laravel and their Stripe API wrapper [Laravel Cashier](https://laravel.com/docs/10.x/billing).
+I hope that the logic could easily be reused in other project stacks or languages.
 
 ## Run this demo
 Set your Stripe keys in the .env file
